@@ -1,34 +1,42 @@
-
-[{
- "id" : 1 ,
- "classify"  : "",
- "name" : "八级拳",
- "introduce" : "",
- "action" : [
-             {
-             "name" : "xiaoming",
-             "content" : "xiaoming",
-             "pictureNameStr" : "",
-             },
-             {
-             "name" : "xiaoming",
-             "content" : "xiaoming",
-             "pictureNameStr" : "",
-             },
-             ],
- },
- 
- {
- "id" : 2 ,
- "classify"  : "",
- "name" : "xiaoming",
- "introduce" : "",
- "action" : [
-             {
-             "name" : "xiaoming",
-             "content" : "xiaoming",
-             "pictureNameStr" : "",
-             }
-             ],
- }
- ]
+[
+    {
+        "id" : 1 ,
+        "classify"  : "",
+        "name" : "八级拳",
+        "introduce" : "",
+        "action" :
+        [
+            {   "name" : "八极拳入门",
+                "introduce" : "xiaoming",
+                "difficulty" : "k1",
+                "actions" : [
+                    {  "name" : "抱拳",
+                        "content" : ["","",""],
+                        "pictureNameStr" : ["","",""],
+                    },
+                    
+                    {  "name" : "抬手",
+                        "content" : ["","",""],
+                        "pictureNameStr" : ["","",""],
+                    },
+                ],
+            },
+            
+            {   "name" : "八极拳母架",
+                "introduce" : "xiaoming",
+                "difficulty" : "k1",
+                "actions" : [
+                    {  "name" : "木架1",
+                        "content" : ["","",""],
+                        "pictureNameStr" : ["","",""],
+                    },
+                    
+                    {  "name" : "木架2",
+                        "content" : ["","",""],
+                        "pictureNameStr" : ["","",""],
+                    },
+                ],
+            }
+        ]
+    }
+]
